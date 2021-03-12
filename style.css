@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(51, 52, 53);
+    color: white;
+    width: 20%;
+    padding: 5%;
+    margin-left: 35%;
+    margin-top: 2%;
+    box-shadow:8px 15px 20px black;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+h1 {
+    color: rgb(51, 50, 50);
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 2px 2px 2px rgb(48, 47, 47);
+}
+
+#bill , #tip {
+border: 0px;
+width: 33%;
+height: 1%;
+padding: 1%;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2%;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(94, 92, 92);
+    color: white;
+    padding: 2%;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.amount , .total {
+    background-color: white;
+    width: 30%;
+    height: 1%;
+    padding: 3%;
+    margin-left: 33%;
+}
